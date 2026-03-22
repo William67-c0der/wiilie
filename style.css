@@ -1,0 +1,42 @@
+/* CSS styling for Calculator Application */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.calculator {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.display {
+    background-color: #222;
+    color: #ffffff;
+    font-size: 2em;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 15px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
